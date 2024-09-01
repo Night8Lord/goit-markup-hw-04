@@ -178,7 +178,7 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-.p-footer-Sm {
+.footer-form-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -204,12 +204,10 @@ img {
 .ul-sm {
   display: flex;
   justify-content: center;
-  column-gap: 16px;
+  gap: 16px;
 }
 .li-footer-sm {
-  fill: floralwhite;
   border-radius: 50%;
-  background-color: #4d5ae5;
 }
 .sm-link {
   display: flex;
@@ -218,8 +216,13 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  fill: floralwhite;
+  fill: #f4f4fd;
   background-color: #4d5ae5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sm-link:hover,
+.sm-link:focus {
+  background-color: #31d0aa;
 }
 /* .section-one */
 .section-one {
