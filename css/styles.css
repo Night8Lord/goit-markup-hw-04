@@ -229,6 +229,7 @@ img {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -236,7 +237,7 @@ img {
     url(../images/bg-people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top left;
+  background-position: center;
 }
 .heding {
   font-size: 56px;
@@ -264,6 +265,7 @@ img {
   display: block;
   margin: 0 auto;
   min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-button:focus,
 .main-button:hover {
@@ -288,6 +290,22 @@ img {
   display: flex;
   margin-bottom: 8px;
   justify-content: flex-start;
+}
+.box-stw-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  max-width: 264px;
+  width: calc((100% - 3 * 24px) / 4);
+}
+.ul-stw-svg {
+  display: flex;
+  gap: 24px;
 }
 
 /* .section-tre */
@@ -325,6 +343,7 @@ img {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-bottom: 8px;
 }
 .li-st-sm {
   border-radius: 50%;
