@@ -300,8 +300,7 @@ img {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
-  max-width: 264px;
-  width: calc((100% - 3 * 24px) / 4);
+  min-width: 264px;
 }
 .ul-stw-svg {
   display: flex;
